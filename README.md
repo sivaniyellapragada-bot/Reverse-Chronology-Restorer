@@ -11,3 +11,6 @@ To ensure the reliability of the restoration process, mutliple verification chec
 The resulting dataset is stored as a separate output file,allowing the original data to remain unchanged.
 The oroject demostrates the physical application of python-based data processing techniques for restoring and validating time-series sensor data.
 It also provides a structured approach to handling large CSV datasets while emphasizing correctness, reproducibility, and data integrity.
+## Introduction
+The rapid growth of Internet of Things (IoT) technology has led to the generation of large volumes of sensor data from connected devices.
+Temperature sensors are widely used in applications such as environmental monitoring, industrial systems
