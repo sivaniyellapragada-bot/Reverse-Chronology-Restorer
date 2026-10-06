@@ -15,4 +15,8 @@ It also provides a structured approach to handling large CSV datasets while emph
 IoT systems continuously generate generate large columns of sensor data that are commonly stored in CSV files for analysis, monitoring, and further processing.
 In reak-world data pipelines, however, records may be not always be stored in the expected chronological order.
 A dataset should represent sensor readings for the oldest to the newest may instead be received in reverse chronological order, making accurate analysis and time-based processing more difficult.
-Reverse
+Reverse-Chronology-Restorer is a Python and PAndas-based data-processing project designed to restore such IoT data to the correct chronological order.
+The project works with a dataset containing 10,00+ temperature sensor records and transforms the reverse-ordered data into an oldest-first sequence while maintaining the integrity of the original records.
+The project focuses not only on reordering the data but also on verificatiob and reliability.
+The restored dataset is checked against the expected chronological order sequence and relevant data constraints to ensure that records are neither lost nor incorrectly modified during processing.
+Through this project, the practical application of Python,Pandas,CSV processing, timestamp handling, data validation, and meory-conscious data processing is demostrated in the context of an IoT data-restoration problem.
