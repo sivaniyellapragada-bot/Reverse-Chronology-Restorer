@@ -12,5 +12,7 @@ The resulting dataset is stored as a separate output file,allowing the original 
 The oroject demostrates the physical application of python-based data processing techniques for restoring and validating time-series sensor data.
 It also provides a structured approach to handling large CSV datasets while emphasizing correctness, reproducibility, and data integrity.
 ## Introduction
-The rapid growth of Internet of Things (IoT) technology has led to the generation of large volumes of sensor data from connected devices.
-Temperature sensors are widely used in applications such as environmental monitoring, industrial systems
+IoT systems continuously generate generate large columns of sensor data that are commonly stored in CSV files for analysis, monitoring, and further processing.
+In reak-world data pipelines, however, records may be not always be stored in the expected chronological order.
+A dataset should represent sensor readings for the oldest to the newest may instead be received in reverse chronological order, making accurate analysis and time-based processing more difficult.
+Reverse
